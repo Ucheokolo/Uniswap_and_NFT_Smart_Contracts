@@ -7,12 +7,12 @@ const config: HardhatUserConfig = {
   solidity: "0.8.17",
   networks: {
 
-    // hardhat: {
-    //   forking: {
-    //     //@ts-ignore
-    //     url: process.env.GOERLI_RPC,
-    //   }
-    // }
+    hardhat: {
+      forking: {
+        //@ts-ignore
+        url: process.env.GOERLI_RPC,
+      }
+    }
     // goerli: {
     //   url: process.env.GOERLI_RPC,
     //   //@ts-ignore
